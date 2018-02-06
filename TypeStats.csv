@@ -1,0 +1,38 @@
+Type,Specialties,Devotion,Ability,Uses
+Acrobat,"Climb, Entertain, Run, Swim, Dodge, Quickness, Stealth, Jump",7,Tumble,4
+Archer,"Bow, Crossbow, Aim, Dodge, Quickness, Stealth, Medical, Repair",7,Quickfire,Unlimited
+Assassin,"Climb, Stealth, Contacts, Lie, Disguise, Mimc, Sword, Poison",4,Ambush,3
+Diplomat,"Empathy, Forgery, Listen, Lie, Customs, Languages, Preach, Sincerity",8,Deal,3
+Duelist,"Sword, Dodge, Quickness, Ride, Jump, Customs, Aim, Brawling",6,Disarm,Unlimited
+Gladiator,"Sword, Flexible, Pole Arm, Aim, Brawling, Run, Will, Bully",7,Knockout,4
+Healer,"Medical, Poison, Plants, Literacy, Business, Interrogate, Sanity, Empathy",10,Healing Hands,3
+Interrogator,"Bully, Interrogate, Preach, Listen, Customs, Languages, Will, Empathy",5,Question,2
+Inventor,"Build, Repair, Traps, Unlock, Wagoning, Business, Siege, Crossbow",7,Invent,2
+Knight,"Sword, Ride, Pole Arm, Sincerity, Customs, Languages, Theology, Preach",10,Yield,4
+Mercenary,"Dodge, Languages, Run, Bargain, Hafted, Brawling, Bow, Siege",6,Two-Weapon Attack,Unlimited
+Merchant,"Bargain, Contacts, Lie, Customs, Business, Languages, Filch, Sincerity",5,Preparedness,2
+Minstrel,"Lie, Mimic, Disguise, Memory, Languages, Artistry, Legends, Entertain",7,Soothe,3
+Priest,"Preach, Theology, Empathy, Will, Sanity, Customs, Literacy, Legends",13,Bless,4
+Ranger,"Caves, Direction, Forage, Plants, Swim, Stealth, Track, Tame",7,Protection from Animals,4
+Rogue," Ride, Sword, Dodge, Contacts, Filch, Bargain, Lie, Legends",4,Seduction,3
+Sage,"Legends, Memory, Arcane Lore, Plants, Poisons, Theology, Literacy",10,Guidance,2
+Scholar,"Legends, Languages, Literacy, Arcane Lore, Memory, Sanity, Interrogate, Customs",9,Reference,2
+Scout,"Stealth, Tame, Run, Swim, Boating, Ride, Direction, Languages",8,Pathfinder,2
+Soldier,"Pole Arm, Brawling, Run, Will, Wagoning, Stealth, Track, Medical",9,Parry,5
+Spy,"Listen, Filch, Stealth, Unlock, Search, Memory, Forgery, Disguise",6,Fast Talk,3
+Thief,"Climb, Quickness, Stealth, Filch, Unlock, Traps, Lie, Search",4,Blend,2
+Warrior,"Bully, Ride, Quickness, Dodge, Crossbow, Sword, Brawling, Flexible",7,Frenzy,4
+Alchemist,"Arcane Lore, Poison, Literacy, Fire Mastery, Heal, Air Mastery, Water Mastery, Transmute",5,None,-
+Bard,"Arcane Lore, Entertain, Legends, Artistry, Bewitch, Control, Bind, Air Mastery",2,None,-
+Conjurer,"Arcane Lore, Sanity, Bully, Repair, Conjure, Summon, Fire Mastery, Earth Mastery",2,None,-
+Demonologist,"Arcane Lore, Bargain, Will, Run, Divination, Summon, Bind, Shapeshift",1,None,-
+Druid,"Plants, Forage, Plant Mastery, Control, Commune, Earth Mastery, Water Mastery, Heal",3,None,-
+Enchanter,"Arcane Lore, Sincerity, Memory, Morph, Transform, Alter, Transmute, Enchant",2,None,-
+Illusionist,"Arcane Lore, Quickness, Conceal, Filch, Disguise, Illusion, Shapeshift, Transform",2,None,-
+Necromancer,"Arcane Lore, Sanity, Stealth, Contacts, Summon, Morph, Bind, Commune",1,None,-
+Psychic,"Search, Empathy, Intuition, Commune, Divination, Move, Protection, Bewitch",3,None,-
+Shaman,"Preach, Medical, Divination, Protection, Heal, Control, Shapeshift, Alter",3,None,-
+Sorcerer,"Arcane Lore, Lie, Legends, Bewitch, Shapeshift, Bind, Enchant, Commune",2,None,-
+Spiritualist,"Arcane Lore, Intuition, Sincerity, Theology, Divination, Summon, Enchant, Air Mastery",4,None,-
+Witch,"Arcane Lore, Plants, Legends, Shapeshift, Transform, Transmute, Bewitch, Plant Mastery",3,None,-
+Wizard,"Arcane Lore, Memory, Languages, Earth Mastery, Fire Mastery, Illusion, Move, Conjure",2,None,-
