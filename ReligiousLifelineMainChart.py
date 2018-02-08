@@ -76,15 +76,15 @@ def excommunicated():
     elif roll <= 50:
         result = "Broken sacred vow"
     elif roll <= 60:
-        result = "Refused to obey temple law."
+        result = "Refused to obey temple law"
     elif roll <= 70:
-        result = "Mocked leaders and/or gods."
+        result = "Mocked leaders and/or gods"
     elif roll <= 80:
-        result = "Theft of temple goods."
+        result = "Theft of temple goods"
     elif roll <= 90:
-        result = "Tried to buy favors."
+        result = "Tried to buy favors"
     elif roll <= 100:
-        result = "Declared a heretic. Banished from homeland."
+        result = "Declared a heretic. Banished from homeland"
     return result
 
 
@@ -111,11 +111,11 @@ def religiousTimeLine():
     elif roll <= 21:
         result = "Currently on holy mission"
     elif roll <= 23:
-        result = "Keeper of HOLY RELIC"
+        result = "Keeper of {}".format(holyRelic())
     elif roll <= 29:
-        result = "Searching for HOLY RELIC"
+        result = "Searching for {}".format(holyRelic())
     elif roll <= 32:
-        result = "Delivering HOLY RELIC"
+        result = "Delivering {}".format(holyRelic())
     elif roll <= 37:
         result = "Subject to religious visions"
     elif roll <= 40:
@@ -129,9 +129,9 @@ def religiousTimeLine():
     elif roll <= 47:
         result = "Doubtful about faith"
     elif roll <= 52:
-        result = "PURSUED BY FAITH on true charges"
+        result = "{} on true charges".format(pursuedByFaith())
     elif roll <= 56:
-        result = "PURSUED BY FAITH on false charges"
+        result = "{} on false charges".format(pursuedByFaith())
     elif roll <= 58:
         result = "Relative of famous religious leader"
     elif roll <= 60:
@@ -143,9 +143,9 @@ def religiousTimeLine():
     elif roll <= 67:
         result = "Cursed by holy person, —1 Fate"
     elif roll <= 70:
-        result = "EXCOMMUNICATED on true charges"
+        result = "{} on true charges".format(excommunicated())
     elif roll <= 73:
-        result = "EXCOMMUNICATED on false charges"
+        result = "{} on false charges".format(excommunicated())
     elif roll <= 76:
         result = "Currently on pilgrimage"
     elif roll <= 78:
@@ -180,3 +180,4 @@ def religiousTimeLine():
         result = "Romantically involved with religious leader."
     elif roll <= 100:
         result = "Disowned by family after joining foreign faith."
+    return result
