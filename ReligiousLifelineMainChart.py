@@ -5,18 +5,17 @@ Spyder Editor
 This is a temporary script file.
 Determines Religious Lifeline
 """
-import random
 
-def d100():
-    roll = random.randint(1,100)
-    return roll
+import diceRolls
+
+
 
 def pursuedByFaith():
-    roll = d100()
+    roll = diceRolls.d100()
     if roll <= 15:
         result = "Desecrated temple or shrine."
     elif roll <= 30:
-        result = "Stole HOLY RELIC."
+        result = "Stole {}.".format(holyRelic())
     elif roll <= 50:
         result = "Lured members away from the faith."
     elif roll <= 70:
@@ -29,7 +28,7 @@ def pursuedByFaith():
 
 
 def holyRelic():
-    roll = d100()
+    roll = diceRolls.d100()
     if roll <= 8:
         result = "Weapon"
     elif roll <= 16:
@@ -64,7 +63,7 @@ def holyRelic():
         
 
 def excommunicated():
-    roll = d100()
+    roll = diceRolls.d100()
     if roll <= 10:
         result = "Promiscuity"
     elif roll <= 20:
@@ -89,7 +88,7 @@ def excommunicated():
 
 
 def religiousTimeLine():
-    roll = d100()
+    roll = diceRolls.d100()
     if roll <= 2:
         result = "Dedicated to religion at birth, +2 Devotion"
     elif roll <= 4:
@@ -180,4 +179,6 @@ def religiousTimeLine():
         result = "Romantically involved with religious leader."
     elif roll <= 100:
         result = "Disowned by family after joining foreign faith."
-    return result
+    print(result)
+
+religiousTimeLine()

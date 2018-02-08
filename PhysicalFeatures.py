@@ -7,20 +7,9 @@ Physical Features
 
 Still need to fix mixed eyes
 """
-import random
+import diceRolls
 
-def d100():
-    roll = random.randint(1,100)
-    return roll
 
-def d99():
-    roll = random.randint(1,99)
-    return roll
-
-def mixedEyes(roll1, roll2):
-    left = eyeColor(roll1)
-    right = eyeColor(roll2)
-    return left, right
 
 def eyeColor(roll):
     if roll <= 10:
@@ -46,10 +35,12 @@ def eyeColor(roll):
     elif roll == 99:
         result = "Golden"
     elif roll == 100:
-        mixedEyes(d99(), d99())
-        result = "Left eye: {}".format(left), " Right eye: {}".format(right)    
-    print (result)
-    
-eyeColor(d100())
+        result = "Left eye: {}".format(LEFT), " Right eye: {}".format(RIGHT)    
+    return result
+
+LEFT = eyeColor(diceRolls.d99())
+RIGHT = eyeColor(diceRolls.d99())
+ 
+print (eyeColor(diceRolls.d100()))
 
 
